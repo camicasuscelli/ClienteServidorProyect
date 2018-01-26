@@ -66,6 +66,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="js\bootstrap-grid.css.map" />
+    <Content Include="js\bootstrap-grid.min.css.map" />
+    <Content Include="js\bootstrap-reboot.css.map" />
+    <Content Include="js\bootstrap-reboot.min.css.map" />
+    <Content Include="js\bootstrap.css.map" />
+    <Content Include="js\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,14 +87,41 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\estilosWeb.css" />
     <Content Include="Global.asax" />
+    <Content Include="js\bootstrap-grid.css" />
+    <Content Include="js\bootstrap-grid.min.css" />
+    <Content Include="js\bootstrap-reboot.css" />
+    <Content Include="js\bootstrap-reboot.min.css" />
+    <Content Include="js\bootstrap.css" />
+    <Content Include="js\bootstrap.min.css" />
+    <Content Include="js\jquery-3.3.1.min.js" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebService.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebService.asmx.cs">
+      <DependentUpon>WebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,12 @@
+﻿.contenedor{
+    width: 30%;
+    background-color: antiquewhite;
+    margin: 10px;
+    border: 10px solid;
+    border-color: aquamarine;
+}
+
+.elementos{
+    text-align: center;
+    position: center;
+}
